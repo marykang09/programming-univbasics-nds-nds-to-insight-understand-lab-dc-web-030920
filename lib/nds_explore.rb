@@ -17,5 +17,4 @@ while i < spielberg_movies.count do
   puts names
   i += 1
 end
-
 end
