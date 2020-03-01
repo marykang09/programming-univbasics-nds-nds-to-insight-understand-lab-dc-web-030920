@@ -10,12 +10,12 @@ end
 
 
 def print_first_directors_movie_titles
-  ss_movies = directors_database[0][:movies]
-  index = 0
+  spielberg_movies = directors_database[0][:movies]
+  i = 0
 
-  while index < ss_movies.length do
-    titles = ss_movies[index][:title]
-    puts titles
+  while i < spielberg_movies.length do
+    names = spielberg_movies[i][:names]
+    puts names
     index +=1
   end
 end
