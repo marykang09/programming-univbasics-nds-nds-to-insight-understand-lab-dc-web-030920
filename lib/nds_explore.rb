@@ -19,4 +19,3 @@ while row_index < directors_database.count do
     row_index += 1
   end
 end
-end
